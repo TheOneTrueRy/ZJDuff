@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-purple bg-gradient px-3 elevation-2">
-    <router-link :to="{ name: 'Home' }" class="">
+    <router-link :to="{ name: 'Home' }">
       <div>
         <img alt="logo" src="/Alice-Logo.png" height="90"  class="logo"/>
       </div>
@@ -24,43 +24,31 @@
     <div class="collapse navbar-collapse text-light justify-content-end" id="navbarText">
       <div class="bricks text-center">
         <router-link class="btn text-uppercase page-btn d-md-none" :to="{name: 'Home'}" :class="[displaying == 'Home' ? 'displaying' : 'text-light']">
-          <span class="">
+          <span>
             HOME
           </span>
         </router-link>
         <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn" :class="[displaying == 'About' ? 'displaying' : 'text-light']">
-          <span class="">
-            About
+          <span>
+            About Alice
           </span>
         </router-link>
-        <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn" :class="[displaying == 'About' ? 'displaying' : 'text-light']">
-          <span class="">
-            About
+        <router-link :to="{ name: 'Film' }" class="btn text-uppercase page-btn" :class="[displaying == 'Film' ? 'displaying' : 'text-light']">
+          <span>
+            Film
           </span>
         </router-link>
-        <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn" :class="[displaying == 'About' ? 'displaying' : 'text-light']">
-          <span class="">
-            About
+        <router-link :to="{ name: 'SFX' }" class="btn text-uppercase page-btn" :class="[displaying == 'SFX' ? 'displaying' : 'text-light']">
+          <span>
+            Special Effects
           </span>
         </router-link>
-      <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn" :class="[displaying == 'About' ? 'displaying' : 'text-light']">
-        <span class="">
-          About
-        </span>
-      </router-link>
-      <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn" :class="[displaying == 'About' ? 'displaying' : 'text-light']">
-        <span class="">
-          About
+      <router-link :to="{ name: 'Contact' }" class="btn text-uppercase page-btn" :class="[displaying == 'Contact' ? 'displaying' : 'text-light']">
+        <span>
+          Contact
         </span>
       </router-link>
     </div>
-      <!-- <ul class="navbar-nav me-auto">
-        <li>
-          <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn">
-            About
-          </router-link>
-        </li>
-      </ul> -->
     </div>
   </nav>
 </template>
@@ -91,16 +79,15 @@ export default {
 
 .page-btn{
   transition: 0.4s;
-  padding-bottom: 0;
 }
 
 .page-btn:hover{
-  transform: scale(1.1);
-  color: white;
+  transform: scale(1.05);
+
 }
 
 .bricks{
-  columns: 3;
+  columns: 2;
 }
 
 @media screen and (min-width: 756px) {

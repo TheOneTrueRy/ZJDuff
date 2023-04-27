@@ -1,21 +1,26 @@
 <template>
-  <div class="about">
-    <h1>This is the about page</h1>
+  <div class="component">
+
+
   </div>
 </template>
+
 
 <script>
 import { onMounted } from "vue";
 import { AppState } from "../AppState.js";
 
 export default {
-  setup() {
+  setup(){
     onMounted(() => {
-      AppState.displaying = 'About'
+      AppState.displaying = 'Contact'
     })
-    return {
-
-    }
+    return {}
   }
 }
 </script>
+
+
+<style lang="scss" scoped>
+
+</style>
