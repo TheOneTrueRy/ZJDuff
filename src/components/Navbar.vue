@@ -6,7 +6,7 @@
       </div>
     </router-link>
     <router-link class="text-uppercase page-btn d-none d-md-flex" :to="{name: 'Home'}">
-      <span class="fs-1">
+      <span class="fs-2">
         HOME
       </span>
     </router-link>
@@ -21,35 +21,35 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse text-light" id="navbarText">
+    <div class="collapse navbar-collapse text-light justify-content-end" id="navbarText">
       <div class="bricks">
         <router-link class="btn text-uppercase page-btn d-md-none" :to="{name: 'Home'}">
-          <span class="fs-5">
+          <span class="">
             HOME
           </span>
         </router-link>
         <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn">
-          <span class="fs-5">
+          <span class="">
             About
           </span>
         </router-link>
         <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn">
-          <span class="fs-5">
+          <span class="">
             About
           </span>
         </router-link>
         <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn">
-          <span class="fs-5">
+          <span class="">
             About
           </span>
         </router-link>
       <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn">
-        <span class="fs-5">
+        <span class="">
           About
         </span>
       </router-link>
       <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn">
-        <span class="fs-5">
+        <span class="">
           About
         </span>
       </router-link>
@@ -83,6 +83,7 @@ export default {
 .page-btn{
   color: white;
   transition: 0.4s;
+  padding-bottom: 0;
 }
 
 .page-btn:hover{
