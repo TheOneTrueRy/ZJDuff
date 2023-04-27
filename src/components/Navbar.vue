@@ -5,7 +5,7 @@
         <img alt="logo" src="/Alice-Logo.png" height="90"  class="logo"/>
       </div>
     </router-link>
-    <router-link class="text-uppercase page-btn d-none d-md-flex" :to="{name: 'Home'}">
+    <router-link class="text-uppercase page-btn d-none d-md-flex" :to="{name: 'Home'}" :class="[displaying == 'Home' ? 'displaying' : 'text-light']">
       <span class="fs-2">
         HOME
       </span>
@@ -22,33 +22,33 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse text-light justify-content-end" id="navbarText">
-      <div class="bricks">
-        <router-link class="btn text-uppercase page-btn d-md-none" :to="{name: 'Home'}">
+      <div class="bricks text-center">
+        <router-link class="btn text-uppercase page-btn d-md-none" :to="{name: 'Home'}" :class="[displaying == 'Home' ? 'displaying' : 'text-light']">
           <span class="">
             HOME
           </span>
         </router-link>
-        <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn">
+        <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn" :class="[displaying == 'About' ? 'displaying' : 'text-light']">
           <span class="">
             About
           </span>
         </router-link>
-        <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn">
+        <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn" :class="[displaying == 'About' ? 'displaying' : 'text-light']">
           <span class="">
             About
           </span>
         </router-link>
-        <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn">
+        <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn" :class="[displaying == 'About' ? 'displaying' : 'text-light']">
           <span class="">
             About
           </span>
         </router-link>
-      <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn">
+      <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn" :class="[displaying == 'About' ? 'displaying' : 'text-light']">
         <span class="">
           About
         </span>
       </router-link>
-      <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn">
+      <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn" :class="[displaying == 'About' ? 'displaying' : 'text-light']">
         <span class="">
           About
         </span>
@@ -66,14 +66,23 @@
 </template>
 
 <script>
+import { computed } from "vue";
+import { AppState } from "../AppState.js";
+
 export default {
   setup() {
-    return {}
+    return {
+      displaying: computed(() => AppState.displaying)
+    }
   },
 }
 </script>
 
 <style scoped>
+
+.displaying{
+  color: #F2D56D;
+}
 
 .logo{
   width: 280px;
@@ -81,7 +90,6 @@ export default {
 }
 
 .page-btn{
-  color: white;
   transition: 0.4s;
   padding-bottom: 0;
 }
@@ -89,12 +97,6 @@ export default {
 .page-btn:hover{
   transform: scale(1.1);
   color: white;
-}
-
-.navbar-nav .router-link-exact-active {
-  border-bottom: 2px solid var(--bs-success);
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
 }
 
 .bricks{
