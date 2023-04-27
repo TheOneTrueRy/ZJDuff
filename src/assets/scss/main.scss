@@ -12,7 +12,8 @@ body{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: var(--body-bg);
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 35%, rgba(233,207,242,1) 100%);
 }
 
 main {
@@ -39,4 +40,8 @@ select {
 form:invalid button[type="submit"] {
   filter: grayscale(1);
   pointer-events: none;
+}
+
+.bg-purple{
+  background-color: #bc81d1;
 }

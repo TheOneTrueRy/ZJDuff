@@ -1,9 +1,14 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
-    <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
-      <div class="d-flex flex-column align-items-center">
-        <img alt="logo" src="" height="60" />
+  <nav class="navbar navbar-expand-lg navbar-dark bg-purple bg-gradient px-3 elevation-2">
+    <router-link :to="{ name: 'Home' }" class="">
+      <div>
+        <img alt="logo" src="/Alice-Logo.png" height="90"  class="logo"/>
       </div>
+    </router-link>
+    <router-link class="text-uppercase page-btn d-none d-md-flex" :to="{name: 'Home'}">
+      <span class="fs-1">
+        HOME
+      </span>
     </router-link>
     <button
       class="navbar-toggler"
@@ -16,14 +21,46 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav me-auto">
+    <div class="collapse navbar-collapse text-light" id="navbarText">
+      <div class="bricks">
+        <router-link class="btn text-uppercase page-btn d-md-none" :to="{name: 'Home'}">
+          <span class="fs-5">
+            HOME
+          </span>
+        </router-link>
+        <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn">
+          <span class="fs-5">
+            About
+          </span>
+        </router-link>
+        <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn">
+          <span class="fs-5">
+            About
+          </span>
+        </router-link>
+        <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn">
+          <span class="fs-5">
+            About
+          </span>
+        </router-link>
+      <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn">
+        <span class="fs-5">
+          About
+        </span>
+      </router-link>
+      <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn">
+        <span class="fs-5">
+          About
+        </span>
+      </router-link>
+    </div>
+      <!-- <ul class="navbar-nav me-auto">
         <li>
-          <router-link :to="{ name: 'About' }" class="btn text-success lighten-30 selectable text-uppercase">
+          <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn">
             About
           </router-link>
         </li>
-      </ul>
+      </ul> -->
     </div>
   </nav>
 </template>
@@ -37,12 +74,20 @@ export default {
 </script>
 
 <style scoped>
-a:hover {
-  text-decoration: none;
+
+.logo{
+  width: 280px;
+  height: auto;
 }
 
-.nav-link {
-  text-transform: uppercase;
+.page-btn{
+  color: white;
+  transition: 0.4s;
+}
+
+.page-btn:hover{
+  transform: scale(1.1);
+  color: white;
 }
 
 .navbar-nav .router-link-exact-active {
@@ -51,10 +96,13 @@ a:hover {
   border-bottom-right-radius: 0;
 }
 
-@media screen and (min-width: 768px) {
-  nav {
-    height: 64px;
-  }
+.bricks{
+  columns: 3;
 }
 
+@media screen and (min-width: 756px) {
+  .bricks{
+    columns: 1;
+  }
+}
 </style>
