@@ -82,8 +82,7 @@ export default {
 }
 
 .page-btn:hover{
-  transform: scale(1.05);
-
+  transform: scale(1.048);
 }
 
 .bricks{
