@@ -8,12 +8,24 @@
   <footer class="bg-purple bg-gradient text-light">
     <div class="container-fluid">
       <div class="row justify-content-center align-items-center">
-        <img src="/instagram-icon.png" alt="Instagram Icon" height="64" width="64" class="rounded-circle" title="Visit Alice's Instagram">
-        <img src="/facebook-icon.png" alt="Facebook Icon" height="64" width="64" class="rounded-circle" title="Visit Alice's Facebook">
-        <img src="/email-icon.png" alt="Email Icon" height="64" width="64" class="rounded-circle" title="Send Alice an E-Mail">
+        <div class="col-4 col-md1-1">
+          <a href="">
+            <img src="/instagram-icon.png" alt="Instagram Icon" height="60" width="60" class="rounded-circle hover-scale" title="Visit Alice's Instagram">
+          </a>
+        </div>
+        <div class="col-4 col-md1-1">
+          <a href="">
+            <img src="/facebook-icon.png" alt="Facebook Icon" height="60" width="60" class="rounded-circle hover-scale" title="Visit Alice's Facebook">
+          </a>
+        </div>
+        <div class="col-4 col-md1-1">
+          <a href="mailto:">
+            <img src="/email-icon.png" alt="Email Icon" height="60" width="60" class="rounded-circle hover-scale" title="Send Alice an E-Mail">
+          </a>
+        </div>
       </div>
       <div class="row justify-content-center align-items-center">
-        <span><i class="mdi mdi-copyright"></i> 2023 Alice Duff</span>
+        <span class="text-center"><i class="mdi mdi-copyright"></i> 2023 Alice Duff</span>
       </div>
     </div>
   </footer>
@@ -45,5 +57,17 @@ footer {
   display: grid;
   place-content: center;
   height: 100px;
+}
+
+.hover-scale{
+  transition: 0.4s;
+}
+
+.hover-scale:hover{
+  transform: scale(1.1);
+}
+
+.hover-scale:active{
+  transform: scale(0.9);
 }
 </style>
