@@ -13,14 +13,14 @@
             A special effects makeup artist and experienced Director's Assistant.
           </b>
         </span>
-        <span class="karla fs-5 text-center px-5">
+        <span class="karla fs-5 text-center mpx">
           Alice loves to work with Stunt Actors and Cinematographers along the east coast who want to bring some more intensity to their videos! 
           Currently residing in Philadelphia and willing to travel!
           Has worked in Boston, Connecticut, New York, New Jersey and Philadelphia.
         </span>
       </div>
     </div>
-    <div class="row">
+    <div class="row pt-5">
       <div class="col-12 col-md-6 text-center">
         <span class="fs-1 text-purple jost">
           ASSISTANT DIRECTOR
@@ -34,7 +34,7 @@
       <div class="col-12 d-md-none text-center">
         <span class="fs-1 text-purple jost">&</span>
       </div>
-      <div class="col-12 text-center pt-5">
+      <div class="col-12 text-center pt-md-5">
         <span class="fs-1 text-purple jost">
           SPECIAL EFFECTS MAKEUP ARTIST
         </span>
@@ -42,22 +42,22 @@
     </div>
     <div class="row">
       <div class="col-12 col-md-3 g-0 sfx d-flex align-items-end justify-content-center beauty">
-        <span class="fs-1 text-shadow text-light">
+        <span class="text-shadow text-light">
           Beauty
         </span>
       </div>
       <div class="col-12 col-md-3 g-0 sfx d-flex align-items-end justify-content-center gore">
-        <span class="fs-1 text-shadow text-light">
+        <span class="text-shadow text-light">
           Gore
         </span>
       </div>
       <div class="col-12 col-md-3 g-0 sfx d-flex align-items-end justify-content-center realism">
-        <span class="fs-1 text-shadow text-light">
+        <span class="text-shadow text-light">
           Realism
         </span>
       </div>
       <div class="col-12 col-md-3 g-0 sfx d-flex align-items-end justify-content-center prosthetics">
-        <span class="fs-1 text-shadow text-light">
+        <span class="text-shadow text-light">
           Prosthetics
         </span>
       </div>
@@ -93,6 +93,7 @@ export default {
 
   .sfx{
     height: 500px;
+    font-size: 3rem;
   }
 
   .alice-pic{
@@ -105,8 +106,8 @@ export default {
   }
 
   .mpx{
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
 
   @media screen and (min-width: 756px) {
