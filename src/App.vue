@@ -8,19 +8,22 @@
   <footer class="bg-purple bg-gradient text-light">
     <div class="container-fluid">
       <div class="row justify-content-center align-items-center">
-        <div class="col-4 col-md1-1">
-          <a href="">
-            <img src="/instagram-icon.png" alt="Instagram Icon" height="60" width="60" class="rounded-circle hover-scale" title="Visit Alice's Instagram">
+        <div class="col-4">
+          <a href="https://www.instagram.com/AliceZJDuff/" class="d-none d-md-inline">
+            <img src="/instagram-icon.png" alt="Instagram Icon" height="60" width="60" class="rounded-circle hover-scale mx-2" title="Visit Alice's Instagram">
+          </a>
+          <a href="instagram://user?username=AliceZJDuff" class="d-md-none">
+            <img src="/instagram-icon.png" alt="Instagram Icon" height="60" width="60" class="rounded-circle hover-scale mx-2" title="Visit Alice's Instagram">
           </a>
         </div>
-        <div class="col-4 col-md1-1">
-          <a href="">
-            <img src="/facebook-icon.png" alt="Facebook Icon" height="60" width="60" class="rounded-circle hover-scale" title="Visit Alice's Facebook">
+        <div class="col-4">
+          <a href="https://www.facebook.com/DuffMakeupNJ/">
+            <img src="/facebook-icon.png" alt="Facebook Icon" height="60" width="60" class="rounded-circle hover-scale mx-2" title="Visit Alice's Facebook">
           </a>
         </div>
-        <div class="col-4 col-md1-1">
+        <div class="col-4">
           <a href="mailto:">
-            <img src="/email-icon.png" alt="Email Icon" height="60" width="60" class="rounded-circle hover-scale" title="Send Alice an E-Mail">
+            <img src="/email-icon.png" alt="Email Icon" height="60" width="60" class="rounded-circle hover-scale mx-2" title="Send Alice an E-Mail">
           </a>
         </div>
       </div>
