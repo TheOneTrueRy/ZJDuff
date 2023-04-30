@@ -8,6 +8,12 @@ body{
   overscroll-behavior: none;
 }
 
+html{
+  ::-webkit-scrollbar{
+    display: none;
+  }
+}
+
 #app {
   display: flex;
   flex-direction: column;
@@ -52,18 +58,30 @@ form:invalid button[type="submit"] {
 
 .beauty{
   font-family: 'Gafata', sans-serif;
+  background-image: url("https://placehold.co/300x700");
+  background-position: center;
+  background-size: cover;
 }
 
 .gore{
   font-family: 'Mate SC', serif;
+  background-image: url("https://placehold.co/300x700");
+  background-position: center;
+  background-size: cover;
 }
 
 .realism{
   font-family: 'Jacques Francois', serif;
+  background-image: url("https://placehold.co/300x700");
+  background-position: center;
+  background-size: cover;
 }
 
 .prosthetics{
   font-family: 'Gabriela', serif;
+  background-image: url("https://placehold.co/300x700");
+  background-position: center;
+  background-size: cover;
 }
 
 .jost{
@@ -84,4 +102,11 @@ form:invalid button[type="submit"] {
 
 .playfair{
   font-family: 'Playfair Display', serif;
+  font-size: 5em;
+}
+
+@media screen and (min-width: 756px) {
+  .playfair{
+    font-size: 8em;
+  }
 }
