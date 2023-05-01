@@ -33,14 +33,14 @@
             About Alice
           </span>
         </router-link>
-        <router-link :to="{ name: 'Film' }" class="btn text-uppercase page-btn" :class="[displaying == 'Film' ? 'displaying' : 'text-light']">
-          <span>
-            Film
-          </span>
-        </router-link>
         <router-link :to="{ name: 'SFX' }" class="btn text-uppercase page-btn" :class="[displaying == 'SFX' ? 'displaying' : 'text-light']">
           <span>
             Special Effects
+          </span>
+        </router-link>
+        <router-link :to="{ name: 'Film' }" class="btn text-uppercase page-btn" :class="[displaying == 'Film' ? 'displaying' : 'text-light']">
+          <span>
+            Film
           </span>
         </router-link>
       <router-link :to="{ name: 'Contact' }" class="btn text-uppercase page-btn" :class="[displaying == 'Contact' ? 'displaying' : 'text-light']">
