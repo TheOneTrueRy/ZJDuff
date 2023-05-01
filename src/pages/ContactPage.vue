@@ -130,7 +130,7 @@ export default {
   }
 
   .hover-scale:hover{
-    transform: scale(1.05);
+    transform: scale(1.03);
   }
 
   .my-border-end{
