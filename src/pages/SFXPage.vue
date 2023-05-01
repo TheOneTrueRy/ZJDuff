@@ -8,7 +8,7 @@
       </div>
       <div class="col-12 col-md-8 offset-md-2 g-0 my-4">
         <div class="bricks px-1">
-          <div v-for="item in sfx" @click="setActiveSFX(item.id)" data-bs-toggle="modal" data-bs-target="#sfxDetails">
+          <div v-for="item in sfx" @click="setActiveSFX(item.id)" data-bs-toggle="modal" data-bs-target="#sfxDetails" class="sfx">
             <img :src="item.imgUrl" :alt="item.title" class="rounded border border-dark elevation-1 hover-scale mw-100 selectable">
           </div>
         </div>
@@ -29,11 +29,17 @@ import Modal from "../components/Modal.vue";
 import SFXDetails from "../components/SFXDetails.vue";
 import Pop from "../utils/Pop.js";
 import {sfxService} from "../services/SFXService.js"
+import { gsap } from "gsap";
 
 export default {
     setup() {
         onMounted(() => {
             AppState.displaying = "SFX";
+            gsap.from(".sfx", {
+              duration: 1.5,
+              stagger: 0.2,
+              opacity: 0
+            })
         });
         return {
             sfx: computed(() => AppState.SFX),
