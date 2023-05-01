@@ -48,10 +48,10 @@
           </div>
           <div class="col-12 d-flex flex-column">
             <span class="fs-3 fw-bold jost hover-scale pt-2">
-              <a href="https://www.instagram.com/AliceZJDuff/" class="text-dark d-none d-md-inline">
+              <a href="https://www.instagram.com/AliceZJDuff/" class="text-dark d-none d-md-inline" target="_blank">
                 INSTAGRAM
               </a>
-              <a href="instagram://user?username=AliceZJDuff" class="text-dark d-md-none">
+              <a href="instagram://user?username=AliceZJDuff" class="text-dark d-md-none" target="_blank">
                 INSTAGRAM
               </a>
             </span>
@@ -61,7 +61,7 @@
           </div>
           <div class="col-12 d-flex flex-column pb-4">
             <span class="fs-3 fw-bold jost hover-scale pt-2">
-              <a href="https://www.facebook.com/DuffMakeupNJ/" class="text-dark">
+              <a href="https://www.facebook.com/DuffMakeupNJ/" class="text-dark" target="_blank">
                 FACEBOOK
               </a>
             </span>
@@ -80,7 +80,7 @@
           </div>
           <div class="col-12 col-md-6 d-flex flex-column pt-2">
             <span class="fw-bold fs-3 hover-scale">
-              <a href="" class="text-dark">
+              <a href="" class="text-dark" target="_blank">
                 Redbubble
               </a>
             </span>
@@ -92,7 +92,7 @@
           </div>
           <div class="col-12 col-md-6 d-flex flex-column pt-2">
             <span class="fw-bold fs-3 hover-scale">
-              <a href="" class="text-dark">
+              <a href="" class="text-dark" target="_blank">
                 Etsy
               </a>
             </span>
