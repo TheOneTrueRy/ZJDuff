@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div class="row mt-5">
       <div class="col-12 col-md-4 d-flex justify-content-center">
-        <img src="https://placehold.co/1200" alt="Alice Duff" class="rounded-circle border border-dark alice-pic">
+        <img src="/Alice.png" alt="Alice Duff" class="rounded-circle border border-dark alice-pic">
       </div>
       <div class="col-12 offset-md-2 col-md-6 d-flex flex-column px-md-5">
         <span class="fs-4 fw-bold montserrat pb-3 pt-4">
@@ -41,8 +41,8 @@ export default {
 
 <style scoped lang="scss">
     .alice-pic{
-    height: 40vh;
-    width: 40vh;
+    height: 35vh;
+    width: 35vh;
   }
 
   .purple-btn{

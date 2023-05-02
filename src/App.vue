@@ -55,7 +55,6 @@ export default {
   --main-height: calc(100vh - 32px - 64px);
 }
 
-
 footer {
   display: grid;
   place-content: center;
@@ -73,4 +72,5 @@ footer {
 .hover-scale:active{
   transform: scale(0.9);
 }
+
 </style>

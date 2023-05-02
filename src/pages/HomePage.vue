@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div class="row my-5">
       <div class="col-12 col-md-4 text-center">
-        <img src="https://placehold.co/1200" alt="Alice Duff" class="rounded-circle border border-dark alice-pic">
+        <img src="/Alice.png" alt="Alice Duff" class="rounded-circle border border-dark alice-pic">
       </div>
       <div class="col-12 col-md-7 offset-md-1 d-flex flex-column mpx">
         <span class="playfair text-purple text-center">
@@ -97,8 +97,8 @@ export default {
   }
 
   .alice-pic{
-    height: 40vh;
-    width: 40vh;
+    height: 35vh;
+    width: 35vh;
   }
 
   .subtitle{

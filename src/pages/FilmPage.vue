@@ -6,21 +6,29 @@
           HEAD OF ART DEPARTMENT
         </span>
       </div>
-      <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-3">
+      <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-3" >
         <span class="fs-2 jost pb-1">
           <i>
-            Movie Title
+            Tony Martone (2022)
           </i>
         </span>
-        <img src="https://placehold.co/900x400" alt="" class="w-100 rounded border border-dark elevation-2">
+        <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/tony-martone.jpg)` }">
+          <div class="w-100 film-height blur d-flex justify-content-center">
+            <img src="/tony-martone.jpg" alt="" class="max">
+          </div>
+        </div>
       </div>
-      <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-3">
+      <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-3" >
         <span class="fs-2 jost pb-1">
           <i>
-            Movie Title
+            Tony Martone (2022)
           </i>
         </span>
-        <img src="https://placehold.co/900x400" alt="" class="w-100 rounded border border-dark elevation-2">
+        <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/tony-martone.jpg)` }">
+          <div class="w-100 film-height blur d-flex justify-content-center">
+            <img src="/tony-martone.jpg" alt="" class="max">
+          </div>
+        </div>
       </div>
     </div>
     <div class="row">
@@ -29,21 +37,29 @@
           FIRST ASSISTANT DIRECTOR
         </span>
       </div>
-      <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-3">
+      <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-3" >
         <span class="fs-2 jost pb-1">
           <i>
-            Movie Title
+            Tony Martone (2022)
           </i>
         </span>
-        <img src="https://placehold.co/900x400" alt="" class="w-100 rounded border border-dark elevation-2">
+        <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/tony-martone.jpg)` }">
+          <div class="w-100 film-height blur d-flex justify-content-center">
+            <img src="/tony-martone.jpg" alt="" class="max">
+          </div>
+        </div>
       </div>
-      <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-3">
+      <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-3" >
         <span class="fs-2 jost pb-1">
           <i>
-            Movie Title
+            Tony Martone (2022)
           </i>
         </span>
-        <img src="https://placehold.co/900x400" alt="" class="w-100 rounded border border-dark elevation-2">
+        <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/tony-martone.jpg)` }">
+          <div class="w-100 film-height blur d-flex justify-content-center">
+            <img src="/tony-martone.jpg" alt="" class="max">
+          </div>
+        </div>
       </div>
     </div>
     <div class="row">
@@ -52,37 +68,53 @@
           SPECIAL EFFECTS MAKEUP
         </span>
       </div>
-      <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-3">
+      <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-3" >
         <span class="fs-2 jost pb-1">
           <i>
-            Movie Title
+            Tony Martone (2022)
           </i>
         </span>
-        <img src="https://placehold.co/900x400" alt="" class="w-100 rounded border border-dark elevation-2">
+        <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/tony-martone.jpg)` }">
+          <div class="w-100 film-height blur d-flex justify-content-center">
+            <img src="/tony-martone.jpg" alt="" class="max">
+          </div>
+        </div>
       </div>
-      <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-3">
+      <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-3" >
         <span class="fs-2 jost pb-1">
           <i>
-            Movie Title
+            Patriarch(2021)
           </i>
         </span>
-        <img src="https://placehold.co/900x400" alt="" class="w-100 rounded border border-dark elevation-2">
+        <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/patriarch.jpg)` }">
+          <div class="w-100 film-height blur d-flex justify-content-center">
+            <img src="/patriarch.jpg" alt="" class="max">
+          </div>
+        </div>
       </div>
-      <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-3">
+      <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-4" >
         <span class="fs-2 jost pb-1">
           <i>
-            Movie Title
+            Power Rangers Unworthy (2018)
           </i>
         </span>
-        <img src="https://placehold.co/900x400" alt="" class="w-100 rounded border border-dark elevation-2">
+        <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/power-rangers-unworthy.jpg)` }">
+          <div class="w-100 film-height blur d-flex justify-content-center">
+            <img src="/power-rangers-unworthy.jpg" alt="" class="max">
+          </div>
+        </div>
       </div>
-      <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-3">
+      <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-4" >
         <span class="fs-2 jost pb-1">
           <i>
-            Movie Title
+            Tony Martone (2022)
           </i>
         </span>
-        <img src="https://placehold.co/900x400" alt="" class="w-100 rounded border border-dark elevation-2">
+        <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/tony-martone.jpg)` }">
+          <div class="w-100 film-height blur d-flex justify-content-center">
+            <img src="/tony-martone.jpg" alt="" class="max">
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -107,5 +139,23 @@ export default {
 <style lang="scss" scoped>
   .spacing{
     letter-spacing: 10px;
+  }
+
+  .max{
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .film-height{
+    height: 50vh;
+  }
+
+  .blur{
+    backdrop-filter: blur(10px);
+  }
+
+  .fix-background{
+    background-position: center;
+    background-size: cover;
   }
 </style>
