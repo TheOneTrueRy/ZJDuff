@@ -15,7 +15,7 @@ export const AppState = reactive({
       artist: '@DuffMakeupNJ',
       model: '@Blancobravado',
       photoCredit: '@jahphotos1968',
-      imgUrl: 'https://static.wixstatic.com/media/733d03_3d2224603f7e4b2286deca5828dbbf49~mv2.png/v1/fit/w_1583,h_783,q_90/733d03_3d2224603f7e4b2286deca5828dbbf49~mv2.webp',
+      imgUrl: '/BurnWound.png',
       client: '@Offscreenstudio'
     },
     {
@@ -24,17 +24,17 @@ export const AppState = reactive({
       artist: '@DuffMakeupNJ',
       model: '@Blancobravado',
       photoCredit: '@jahphotos1968',
-      imgUrl: 'https://static.wixstatic.com/media/733d03_9fffb6af900b44efb1daf64529d37ca1~mv2.png/v1/fit/w_1583,h_783,q_90/733d03_9fffb6af900b44efb1daf64529d37ca1~mv2.webp',
+      imgUrl: '/Zombie.png',
       client: '@Offscreenstudio'
     },
     {
       id: 3,
-      title: 'Zombie',
+      title: 'Assault',
       artist: '@DuffMakeupNJ',
-      model: '@Blancobravado',
-      photoCredit: '@jahphotos1968',
-      imgUrl: 'https://static.wixstatic.com/media/733d03_ef91f1b90d494e57937b6bac447e7b6d~mv2.png/v1/fit/w_1583,h_783,q_90/733d03_ef91f1b90d494e57937b6bac447e7b6d~mv2.webp',
-      client: '@Offscreenstudio'
+      model: '',
+      photoCredit: '',
+      imgUrl: '/Assault.jpg',
+      client: ''
     },
     {
       id: 4,
@@ -42,7 +42,7 @@ export const AppState = reactive({
       artist: '@DuffMakeupNJ',
       model: '@Blancobravado',
       photoCredit: '@jahphotos1968',
-      imgUrl: 'https://static.wixstatic.com/media/733d03_9e0ae2ca6d9d46629d1ad6535c99a60d~mv2.png/v1/fit/w_1583,h_783,q_90/733d03_9e0ae2ca6d9d46629d1ad6535c99a60d~mv2.webp',
+      imgUrl: '/Vampire.png',
       client: '@Offscreenstudio'
     },
     {
@@ -51,7 +51,7 @@ export const AppState = reactive({
       artist: '@DuffMakeupNJ',
       model: '@Shortnotsweet',
       photoCredit: '@atlantic_light_images',
-      imgUrl: 'https://static.wixstatic.com/media/733d03_0e5674c0277c41329bcbe05d6fda3291~mv2.jpg/v1/fit/w_720,h_783,q_90/733d03_0e5674c0277c41329bcbe05d6fda3291~mv2.webp',
+      imgUrl: '/ZombieClown.jpg',
       client: '@Offscreenstudio'
     },
     {
@@ -60,8 +60,17 @@ export const AppState = reactive({
       artist: '@DuffMakeupNJ',
       model: '@Shortnotsweet',
       photoCredit: '@atlantic_light_images',
-      imgUrl: 'https://static.wixstatic.com/media/733d03_62dde2b0041c4a22bc59cc4b88340976~mv2.jpg/v1/fit/w_720,h_783,q_90/733d03_62dde2b0041c4a22bc59cc4b88340976~mv2.webp',
+      imgUrl: '/HorrorClown.jpg',
       client: '@Offscreenstudio'
+    },
+    {
+      id: 6,
+      title: 'Age Makeup',
+      artist: '@DuffMakeupNJ',
+      model: '',
+      photoCredit: '',
+      imgUrl: '/AgeMakeup.jpg',
+      client: ''
     },
     {
       id: 7,
@@ -69,7 +78,7 @@ export const AppState = reactive({
       artist: '@DuffMakeupNJ',
       model: '',
       photoCredit: '',
-      imgUrl: 'https://static.wixstatic.com/media/733d03_5cf84f74a6424fc7b6e7aa8a77455fb4~mv2.jpg/v1/fit/w_720,h_692,q_90/733d03_5cf84f74a6424fc7b6e7aa8a77455fb4~mv2.webp',
+      imgUrl: '/FleshWound.jpg',
       client: ''
     },
     {
@@ -78,16 +87,16 @@ export const AppState = reactive({
       artist: '@DuffMakeupNJ',
       model: '',
       photoCredit: '',
-      imgUrl: 'https://static.wixstatic.com/media/733d03_3d4da8ca81cb44c88b40c6818c87635b~mv2.png/v1/fit/w_1583,h_783,q_90/733d03_3d4da8ca81cb44c88b40c6818c87635b~mv2.webp',
+      imgUrl: '/FacePaint.jpg',
       client: ''
     },
     {
       id: 9,
-      title: 'Face Paint - Rainbow Tears',
+      title: 'Rainbow Tears',
       artist: '@DuffMakeupNJ',
       model: '',
       photoCredit: '',
-      imgUrl: 'https://static.wixstatic.com/media/733d03_fe073e800a63449baa503b5c6b27ee9e~mv2.jpg/v1/fit/w_1080,h_783,q_90/733d03_fe073e800a63449baa503b5c6b27ee9e~mv2.webp',
+      imgUrl: '/RainbowTears.jpg',
       client: ''
     },
   ],
