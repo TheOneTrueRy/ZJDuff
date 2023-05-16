@@ -80,25 +80,29 @@
           </div>
           <div class="col-12 col-md-6 d-flex flex-column pt-2">
             <span class="fw-bold fs-3 hover-scale">
-              <a href="" class="text-dark" target="_blank">
+              <a href="https://www.redbubble.com/people/DuffmakeupNJ/shop" class="text-dark" target="_blank">
                 Redbubble
               </a>
             </span>
             <span class="jost pt-1">
               <i>
-                Redbubble Profile Name
+                <a href="https://www.redbubble.com/people/DuffmakeupNJ/shop" class="text-dark">
+                  DuffmakeupNJ
+                </a>
               </i>
             </span>
           </div>
           <div class="col-12 col-md-6 d-flex flex-column pt-2">
             <span class="fw-bold fs-3 hover-scale">
-              <a href="" class="text-dark" target="_blank">
+              <a href="https://www.etsy.com/shop/ZJDuff" class="text-dark" target="_blank">
                 Etsy
               </a>
             </span>
             <span class="jost pt-1">
               <i>
-                Etsy Profile Name
+                <a href="https://www.etsy.com/shop/ZJDuff" class="text-dark">
+                  ZJDuff
+                </a>
               </i>
             </span>
           </div>
@@ -125,7 +129,7 @@ export default {
 
 
 <style lang="scss" scoped>
-    .hover-scale{
+  .hover-scale{
     transition: 0.4s;
   }
 
