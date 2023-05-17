@@ -15,9 +15,11 @@
         <span class="fs-5 karla pe-md-5 pb-3">
           I dabbled in several possible career paths, like becoming a Veterinarian and a Forensic scientist. I was lucky enough to have opportunities to shadow at veterinarian clinics where I observed and assisted them in surgeries, house calls and routine check-ups. These experiences, along with the love of animals, made it possible for me to gain the confidence to manage my own pet sitting business where I learned that I loved management, and utilizing skills, like working with others, time management, problem solving, and detailed oriented work. These skill sets are what empowers me to be a reliable and trusted Assistant Director
         </span>
-        <button class="btn purple-btn mt-2 mb-3 py-2">
-          Download Resume <i class="mdi mdi-download"></i>
-        </button>
+        <a href="/AliceDuffResume.pdf" download>
+          <button class="btn purple-btn mt-2 mb-3 py-2">
+            Download Resume <i class="mdi mdi-download"></i>
+          </button>
+        </a>
       </div>
     </div>
   </div>
