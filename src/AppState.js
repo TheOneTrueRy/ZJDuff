@@ -99,6 +99,42 @@ export const AppState = reactive({
       imgUrl: '/RainbowTears.jpg',
       client: ''
     },
+    {
+      id: 9,
+      title: 'Prosthetics 3',
+      artist: '@DuffMakeupNJ',
+      model: '',
+      photoCredit: '',
+      imgUrl: '/prosthetics-3.jpg',
+      client: ''
+    },
+    {
+      id: 9,
+      title: 'Zombie 2',
+      artist: '@DuffMakeupNJ',
+      model: '',
+      photoCredit: '',
+      imgUrl: '/zombie-2.png',
+      client: ''
+    },
+    {
+      id: 9,
+      title: 'Prosthetics',
+      artist: '@DuffMakeupNJ',
+      model: '',
+      photoCredit: '',
+      imgUrl: '/prosthetics.png',
+      client: ''
+    },
+    {
+      id: 9,
+      title: 'Prosthetics 2',
+      artist: '@DuffMakeupNJ',
+      model: '',
+      photoCredit: '',
+      imgUrl: '/prosthetics-2.png',
+      client: ''
+    },
   ],
 
   activeSFX: null
