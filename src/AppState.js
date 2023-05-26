@@ -100,7 +100,7 @@ export const AppState = reactive({
       client: ''
     },
     {
-      id: 9,
+      id: 10,
       title: 'Prosthetics 3',
       artist: '@DuffMakeupNJ',
       model: '',
@@ -109,7 +109,7 @@ export const AppState = reactive({
       client: ''
     },
     {
-      id: 9,
+      id: 11,
       title: 'Zombie 2',
       artist: '@DuffMakeupNJ',
       model: '',
@@ -118,7 +118,7 @@ export const AppState = reactive({
       client: ''
     },
     {
-      id: 9,
+      id: 12,
       title: 'Prosthetics',
       artist: '@DuffMakeupNJ',
       model: '',
@@ -127,7 +127,7 @@ export const AppState = reactive({
       client: ''
     },
     {
-      id: 9,
+      id: 13,
       title: 'Prosthetics 2',
       artist: '@DuffMakeupNJ',
       model: '',
