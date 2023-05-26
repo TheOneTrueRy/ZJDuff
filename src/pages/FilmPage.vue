@@ -9,19 +9,19 @@
       <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-3" >
         <span class="fs-2 jost pb-1">
           <i>
-            Tony Martone (2022)
+            The Tupperware Murder (2021)
           </i>
         </span>
-        <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/tony-martone.jpg)` }">
+        <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/Tupperware-Murder.jpg)` }">
           <div class="w-100 film-height blur d-flex justify-content-center">
-            <img src="/tony-martone.jpg" alt="" class="max">
+            <img src="/Tupperware-Murder.jpg" alt="" class="max">
           </div>
         </div>
       </div>
       <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-3" >
         <span class="fs-2 jost pb-1">
           <i>
-            Tony Martone (2022)
+            Tony Martone (2021)
           </i>
         </span>
         <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/tony-martone.jpg)` }">
