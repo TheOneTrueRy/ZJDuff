@@ -177,7 +177,7 @@ export default {
   }
 
   .film-height{
-    height: 50vh;
+    height: 30vh;
   }
 
   .blur{
@@ -191,6 +191,12 @@ export default {
 
   .hover-line:hover{
     text-decoration: underline;
+  }
+
+  @media screen and (min-width: 756px) {
+    .film-height{
+      height: 50vh;
+    }
   }
 
 </style>
