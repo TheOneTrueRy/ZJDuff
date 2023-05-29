@@ -24,29 +24,59 @@
     <div class="collapse navbar-collapse text-light justify-content-end" id="navbarText">
       <div class="bricks text-center">
         <router-link class="btn text-uppercase page-btn d-md-none" :to="{name: 'Home'}" :class="[displaying == 'Home' ? 'displaying' : 'text-light']">
-          <span>
-            HOME
-          </span>
+          <div data-bs-target="#navbarText" data-bs-toggle="collapse">
+            <span>
+              HOME
+            </span>
+          </div>
         </router-link>
         <router-link :to="{ name: 'About' }" class="btn text-uppercase page-btn" :class="[displaying == 'About' ? 'displaying' : 'text-light']">
-          <span>
-            About Alice
-          </span>
+          <div data-bs-target="#navbarText" data-bs-toggle="collapse" class="d-md-none">
+            <span>
+              About Alice
+            </span>
+          </div>
+          <div class="d-none d-md-flex">
+            <span>
+              About Alice
+            </span>
+          </div>
         </router-link>
         <router-link :to="{ name: 'SFX' }" class="btn text-uppercase page-btn" :class="[displaying == 'SFX' ? 'displaying' : 'text-light']">
-          <span>
-            Special Effects
-          </span>
+          <div data-bs-target="#navbarText" data-bs-toggle="collapse" class="d-md-none">
+            <span>
+              Special Effects
+            </span>
+          </div>
+          <div class="d-md-flex d-none">
+            <span>
+              Special Effects
+            </span>
+          </div>
         </router-link>
         <router-link :to="{ name: 'Film' }" class="btn text-uppercase page-btn" :class="[displaying == 'Film' ? 'displaying' : 'text-light']">
-          <span>
-            Film
-          </span>
+          <div data-bs-target="#navbarText" data-bs-toggle="collapse" class="d-md-none">
+            <span>
+              Film
+            </span>
+          </div>
+          <div class="d-none d-md-flex">
+            <span>
+              Film
+            </span>
+          </div>
         </router-link>
         <router-link :to="{ name: 'Contact' }" class="btn text-uppercase page-btn" :class="[displaying == 'Contact' ? 'displaying' : 'text-light']">
-          <span>
-            Contact
-          </span>
+          <div data-bs-target="#navbarText" data-bs-toggle="collapse" class="d-md-none">
+            <span>
+              Contact
+            </span>
+          </div>
+          <div class="d-none d-md-flex">
+            <span>
+              Contact
+            </span>
+          </div>
         </router-link>
       </div>
     </div>
