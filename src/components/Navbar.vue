@@ -43,12 +43,12 @@
             Film
           </span>
         </router-link>
-      <router-link :to="{ name: 'Contact' }" class="btn text-uppercase page-btn" :class="[displaying == 'Contact' ? 'displaying' : 'text-light']">
-        <span>
-          Contact
-        </span>
-      </router-link>
-    </div>
+        <router-link :to="{ name: 'Contact' }" class="btn text-uppercase page-btn" :class="[displaying == 'Contact' ? 'displaying' : 'text-light']">
+          <span>
+            Contact
+          </span>
+        </router-link>
+      </div>
     </div>
   </nav>
 </template>
@@ -69,7 +69,7 @@ export default {
 <style scoped>
 
 .displaying{
-  color: #F2D56D;
+  color: #F2D56D !important;
 }
 
 .logo{
@@ -79,6 +79,7 @@ export default {
 
 .page-btn{
   transition: 0.4s;
+  border: none;
 }
 
 .page-btn:hover{
