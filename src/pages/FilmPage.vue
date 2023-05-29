@@ -16,7 +16,7 @@
         </span>
         <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/Tupperware-Murder.jpg)` }">
           <div class="w-100 film-height blur d-flex justify-content-center align-items-center">
-            <img src="/Tupperware-Murder.jpg" alt="" class="max rounded">
+            <img src="/Tupperware-Murder.jpg" alt="" class="max">
           </div>
         </div>
       </div>
