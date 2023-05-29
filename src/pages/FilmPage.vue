@@ -8,9 +8,11 @@
       </div>
       <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-3" >
         <span class="fs-2 jost pb-1">
-          <i>
-            The Tupperware Murder (2021)
-          </i>
+          <a href="https://www.imdb.com/title/tt14848262/?ref_=nm_flmg_t_1_art" class="text-dark hover-line">
+            <i>
+              The Tupperware Murder (2021)
+            </i>
+          </a>
         </span>
         <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/Tupperware-Murder.jpg)` }">
           <div class="w-100 film-height blur d-flex justify-content-center">
@@ -20,9 +22,11 @@
       </div>
       <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-3" >
         <span class="fs-2 jost pb-1">
-          <i>
-            The Andersons (2021)
-          </i>
+          <a href="https://www.imdb.com/title/tt14848108/?ref_=nm_flmg_t_2_art" class="text-dark hover-line">
+            <i>
+              The Andersons (2021)
+            </i>
+          </a>
         </span>
         <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/The-Andersons.jpg)` }">
           <div class="w-100 film-height blur d-flex justify-content-center">
@@ -39,9 +43,11 @@
       </div>
       <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-4" >
         <span class="fs-2 jost pb-1">
-          <i>
-            Power Rangers Unworthy (2018)
-          </i>
+          <a href="https://www.imdb.com/title/tt14848108/?ref_=nm_flmg_t_2_art" class="text-dark hover-line">
+            <i>
+              Power Rangers Unworthy (2018)
+            </i>
+          </a>
         </span>
         <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/power-rangers-unworthy.jpg)` }">
           <div class="w-100 film-height blur d-flex justify-content-center">
@@ -51,9 +57,11 @@
       </div>
       <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-3" >
         <span class="fs-2 jost pb-1">
-          <i>
-            TRIUMPH (2022)
-          </i>
+          <a href="https://www.triumphtheshortfilm.com/watch" class="text-dark hover-line">
+            <i>
+              TRIUMPH (2022)
+            </i>
+          </a>
         </span>
         <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/Triumph.png)` }">
           <div class="w-100 film-height blur d-flex justify-content-center">
@@ -70,9 +78,11 @@
       </div>
       <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-3" >
         <span class="fs-2 jost pb-1">
-          <i>
-            Tony Martone (2022)
-          </i>
+          <a href="https://www.imdb.com/title/tt15470078/?ref_=nm_flmg_t_1_spl" class="text-dark hover-line">
+            <i>
+              Tony Martone (2022)
+            </i>
+          </a>
         </span>
         <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/tony-martone.jpg)` }">
           <div class="w-100 film-height blur d-flex justify-content-center">
@@ -82,9 +92,11 @@
       </div>
       <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-3" >
         <span class="fs-2 jost pb-1">
-          <i>
-            Patriarch(2021)
-          </i>
+          <a href="https://www.imdb.com/title/tt14713310/?ref_=nm_flmg_t_5_spl" class="text-dark hover-line">
+            <i>
+              Patriarch(2021)
+            </i>
+          </a>
         </span>
         <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/patriarch.jpg)` }">
           <div class="w-100 film-height blur d-flex justify-content-center">
@@ -94,9 +106,11 @@
       </div>
       <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-4" >
         <span class="fs-2 jost pb-1">
-          <i>
-            Power Rangers Unworthy (2018)
-          </i>
+          <a href="https://www.imdb.com/title/tt14848108/?ref_=nm_flmg_t_2_art" class="text-dark hover-line">
+            <i>
+              Power Rangers Unworthy (2018)
+            </i>
+          </a>
         </span>
         <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/power-rangers-unworthy.jpg)` }">
           <div class="w-100 film-height blur d-flex justify-content-center">
@@ -106,9 +120,11 @@
       </div>
       <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-4" >
         <span class="fs-2 jost pb-1">
-          <i>
-            Justice for Chau (2022)
-          </i>
+          <a href="https://www.imdb.com/title/tt15828282/?ref_=nm_flmg_t_2_spl" class="text-dark hover-line">
+            <i>
+              Justice for Chau (2022)
+            </i>
+          </a>
         </span>
         <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/Justice-For-Chau.jpg)` }">
           <div class="w-100 film-height blur d-flex justify-content-center">
@@ -118,9 +134,11 @@
       </div>
       <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-4" >
         <span class="fs-2 jost pb-1">
-          <i>
-            Weapon of Choice (2021)
-          </i>
+          <a href="https://www.imdb.com/title/tt15339370/?ref_=nm_flmg_t_4_spl" class="text-dark hover-line">
+            <i>
+              Weapon of Choice (2021)
+            </i>
+          </a>
         </span>
         <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/Weapon-Of-Choice.jpg)` }">
           <div class="w-100 film-height blur d-flex justify-content-center">
@@ -170,4 +188,9 @@ export default {
     background-position: center;
     background-size: cover;
   }
+
+  .hover-line:hover{
+    text-decoration: underline;
+  }
+
 </style>
