@@ -22,7 +22,7 @@
           </a>
         </div>
         <div class="col-4">
-          <a href="mailto:">
+          <a href="mailto:AliceZJDuff@gmail.com">
             <img src="/email-icon.png" alt="Email Icon" height="45" width="45" class="rounded-circle hover-scale mx-2" title="Send Alice an E-Mail">
           </a>
         </div>
