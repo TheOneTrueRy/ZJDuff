@@ -15,8 +15,8 @@
           </a>
         </span>
         <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/Tupperware-Murder.jpg)` }">
-          <div class="w-100 film-height blur d-flex justify-content-center">
-            <img src="/Tupperware-Murder.jpg" alt="" class="max">
+          <div class="w-100 film-height blur d-flex justify-content-center align-items-center">
+            <img src="/Tupperware-Murder.jpg" alt="" class="max rounded">
           </div>
         </div>
       </div>
@@ -29,7 +29,7 @@
           </a>
         </span>
         <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/The-Andersons.jpg)` }">
-          <div class="w-100 film-height blur d-flex justify-content-center">
+          <div class="w-100 film-height blur d-flex justify-content-center align-items-center">
             <img src="/The-Andersons.jpg" alt="" class="max">
           </div>
         </div>
@@ -50,7 +50,7 @@
           </a>
         </span>
         <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/power-rangers-unworthy.jpg)` }">
-          <div class="w-100 film-height blur d-flex justify-content-center">
+          <div class="w-100 film-height blur d-flex justify-content-center align-items-center">
             <img src="/power-rangers-unworthy.jpg" alt="" class="max">
           </div>
         </div>
@@ -64,7 +64,7 @@
           </a>
         </span>
         <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/Triumph.png)` }">
-          <div class="w-100 film-height blur d-flex justify-content-center">
+          <div class="w-100 film-height blur d-flex justify-content-center align-items-center">
             <img src="/Triumph.png" alt="" class="max">
           </div>
         </div>
@@ -85,7 +85,7 @@
           </a>
         </span>
         <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/tony-martone.jpg)` }">
-          <div class="w-100 film-height blur d-flex justify-content-center">
+          <div class="w-100 film-height blur d-flex justify-content-center align-items-center">
             <img src="/tony-martone.jpg" alt="" class="max">
           </div>
         </div>
@@ -99,7 +99,7 @@
           </a>
         </span>
         <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/patriarch.jpg)` }">
-          <div class="w-100 film-height blur d-flex justify-content-center">
+          <div class="w-100 film-height blur d-flex justify-content-center align-items-center">
             <img src="/patriarch.jpg" alt="" class="max">
           </div>
         </div>
@@ -113,7 +113,7 @@
           </a>
         </span>
         <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/power-rangers-unworthy.jpg)` }">
-          <div class="w-100 film-height blur d-flex justify-content-center">
+          <div class="w-100 film-height blur d-flex justify-content-center align-items-center">
             <img src="/power-rangers-unworthy.jpg" alt="" class="max">
           </div>
         </div>
@@ -127,7 +127,7 @@
           </a>
         </span>
         <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/Justice-For-Chau.jpg)` }">
-          <div class="w-100 film-height blur d-flex justify-content-center">
+          <div class="w-100 film-height blur d-flex justify-content-center align-items-center">
             <img src="/Justice-For-Chau.jpg" alt="" class="max">
           </div>
         </div>
@@ -141,7 +141,7 @@
           </a>
         </span>
         <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/Weapon-Of-Choice.jpg)` }">
-          <div class="w-100 film-height blur d-flex justify-content-center">
+          <div class="w-100 film-height blur d-flex justify-content-center align-items-center">
             <img src="/Weapon-Of-Choice.jpg" alt="" class="max">
           </div>
         </div>
