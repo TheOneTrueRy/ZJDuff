@@ -21,12 +21,12 @@
       <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-3" >
         <span class="fs-2 jost pb-1">
           <i>
-            Tony Martone (2021)
+            The Andersons (2021)
           </i>
         </span>
-        <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/tony-martone.jpg)` }">
+        <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/The-Andersons.jpg)` }">
           <div class="w-100 film-height blur d-flex justify-content-center">
-            <img src="/tony-martone.jpg" alt="" class="max">
+            <img src="/The-Andersons.jpg" alt="" class="max">
           </div>
         </div>
       </div>
@@ -37,27 +37,27 @@
           FIRST ASSISTANT DIRECTOR
         </span>
       </div>
-      <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-3" >
+      <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-4" >
         <span class="fs-2 jost pb-1">
           <i>
-            Tony Martone (2022)
+            Power Rangers Unworthy (2018)
           </i>
         </span>
-        <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/tony-martone.jpg)` }">
+        <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/power-rangers-unworthy.jpg)` }">
           <div class="w-100 film-height blur d-flex justify-content-center">
-            <img src="/tony-martone.jpg" alt="" class="max">
+            <img src="/power-rangers-unworthy.jpg" alt="" class="max">
           </div>
         </div>
       </div>
       <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-3" >
         <span class="fs-2 jost pb-1">
           <i>
-            Tony Martone (2022)
+            TRIUMPH (2022)
           </i>
         </span>
-        <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/tony-martone.jpg)` }">
+        <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/Triumph.png)` }">
           <div class="w-100 film-height blur d-flex justify-content-center">
-            <img src="/tony-martone.jpg" alt="" class="max">
+            <img src="/Triumph.png" alt="" class="max">
           </div>
         </div>
       </div>
@@ -107,12 +107,24 @@
       <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-4" >
         <span class="fs-2 jost pb-1">
           <i>
-            Tony Martone (2022)
+            Justice for Chau (2022)
           </i>
         </span>
-        <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/tony-martone.jpg)` }">
+        <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/Justice-For-Chau.jpg)` }">
           <div class="w-100 film-height blur d-flex justify-content-center">
-            <img src="/tony-martone.jpg" alt="" class="max">
+            <img src="/Justice-For-Chau.jpg" alt="" class="max">
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center pb-4" >
+        <span class="fs-2 jost pb-1">
+          <i>
+            Weapon of Choice (2021)
+          </i>
+        </span>
+        <div class="w-100 rounded border border-dark elevation-2 fix-background" :style="{ backgroundImage: `url(/Weapon-Of-Choice.jpg)` }">
+          <div class="w-100 film-height blur d-flex justify-content-center">
+            <img src="/Weapon-Of-Choice.jpg" alt="" class="max">
           </div>
         </div>
       </div>
