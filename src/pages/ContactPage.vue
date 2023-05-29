@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid pb-4 pt-2">
     <div class="row">
       <div class="col-12 pb-md-5 mt-2 text-center pb-2">
         <span class="fs-1 text-purple headland-one">
