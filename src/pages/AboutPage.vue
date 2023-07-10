@@ -1,10 +1,10 @@
 <template>
   <div class="container-fluid">
     <div class="row mt-5">
-      <div class="col-12 col-md-4 d-flex justify-content-center">
+      <div class="col-12 col-lg-4 d-flex justify-content-center">
         <img src="/Alice.png" alt="Alice Duff" class="rounded-circle border border-dark alice-pic">
       </div>
-      <div class="col-12 offset-md-2 col-md-6 d-flex flex-column px-md-5">
+      <div class="col-12 offset-lg-2 col-lg-6 d-flex flex-column px-md-5">
         <span class="fs-4 fw-bold montserrat pb-3 pt-4">
           Personal Biography
         </span>

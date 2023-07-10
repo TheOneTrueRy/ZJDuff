@@ -1,10 +1,10 @@
 <template>
   <div class="container-fluid">
     <div class="row my-5">
-      <div class="col-12 col-md-4 text-center">
+      <div class="col-12 col-lg-4 text-center">
         <img src="/Alice.png" alt="Alice Duff" class="rounded-circle border border-dark alice-pic">
       </div>
-      <div class="col-12 col-md-7 offset-md-1 d-flex flex-column mpx">
+      <div class="col-12 col-lg-7 offset-lg-1 d-flex flex-column mpx">
         <span class="playfair text-purple text-center">
           Alice Duff
         </span>
@@ -21,12 +21,12 @@
       </div>
     </div>
     <div class="row pt-5">
-      <div class="col-12 col-md-6 text-center">
+      <div class="col-12 col-lg-6 text-center">
         <span class="fs-1 text-purple jost">
           ASSISTANT DIRECTOR
         </span>
       </div>
-      <div class="col-12 col-md-6 text-center">
+      <div class="col-12 col-lg-6 text-center">
         <span class="fs-1 text-purple jost">
           ART DIRECTOR
         </span>
@@ -41,22 +41,22 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-12 col-md-3 g-0 sfx d-flex align-items-end justify-content-center beauty">
+      <div class="col-12 col-lg-3 g-0 sfx d-flex align-items-end justify-content-center beauty">
         <span class="text-shadow text-light">
           Beauty
         </span>
       </div>
-      <div class="col-12 col-md-3 g-0 sfx d-flex align-items-end justify-content-center gore">
+      <div class="col-12 col-lg-3 g-0 sfx d-flex align-items-end justify-content-center gore">
         <span class="text-shadow text-light">
           Gore
         </span>
       </div>
-      <div class="col-12 col-md-3 g-0 sfx d-flex align-items-end justify-content-center realism">
+      <div class="col-12 col-lg-3 g-0 sfx d-flex align-items-end justify-content-center realism">
         <span class="text-shadow text-light">
           Realism
         </span>
       </div>
-      <div class="col-12 col-md-3 g-0 sfx d-flex align-items-end justify-content-center prosthetics">
+      <div class="col-12 col-lg-3 g-0 sfx d-flex align-items-end justify-content-center prosthetics">
         <span class="text-shadow text-light">
           Prosthetics
         </span>

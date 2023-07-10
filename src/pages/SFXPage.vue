@@ -6,7 +6,7 @@
           SFX PORTFOLIO
         </span>
       </div>
-      <div class="col-12 col-md-8 offset-md-2 g-0 mb-4">
+      <div class="col-12 col-lg-8 offset-lg-2 g-0 mb-4">
         <div class="bricks px-1">
           <div v-for="item in sfx" class="sfx">
             <img :src="item.imgUrl" :alt="item.title" class="rounded border border-dark elevation-1 hover-scale mw-100">
@@ -76,7 +76,7 @@ export default {
     letter-spacing: 10px;
   }
 
-  @media screen and (min-width: 756px) {
+  @media screen and (min-width: 994px) {
     .bricks{
       columns: 3;
 
