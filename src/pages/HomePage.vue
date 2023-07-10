@@ -4,7 +4,7 @@
       <div class="col-12 col-lg-4 text-center">
         <img src="/Alice.png" alt="Alice Duff" class="rounded-circle border border-dark alice-pic">
       </div>
-      <div class="col-12 col-lg-7 offset-lg-1 d-flex flex-column mpx">
+      <div class="col-12 col-lg-8 d-flex flex-column mpx">
         <span class="playfair text-purple text-center">
           Alice Duff
         </span>
@@ -116,8 +116,8 @@ export default {
     }
 
     .mpx{
-      padding-left: 5em;
-      padding-right: 5em;
+      padding-left: 4em;
+      padding-right: 4em;
     }
   }
 </style>
